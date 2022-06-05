@@ -53,15 +53,21 @@ app.get('/posts', (request, response) => {
 //Get a user by id
 app.get('/user/:id', (request, response) => {
     const user = users.find((user) => user.id == request.params.id);
-    console.log(user);
-    response.json({user});
+    if (user != undefined) {
+        response.json({user});
+    } else {
+        response.status(404).send('Not found');
+    }  
 });
 
 //Get a post by id
 app.get('/post/:id', (request, response) => {
     const post = posts.find((post) => post.id == request.params.id);
-    console.log(post);
-    response.json({post});
+    if (post != undefined) {
+        response.json({post});
+    } else {
+        response.status(404).send('Not found');
+    }
 });
 
 //Listen:
