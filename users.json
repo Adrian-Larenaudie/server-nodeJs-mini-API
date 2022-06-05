@@ -1,0 +1,40 @@
+[   
+    {
+    "id": 1,
+    "firstName": "Adrian",
+    "lastName": "Larenaudie",
+    "email": "adrian.larenaudie@gmail.com",
+    "password": "toto",
+    "slug_name": "adrian-larenaudie",
+    "picture_url": null, 
+    "city": "Noisy the Great",
+    "role": "Admin",
+    "status": 1,
+    "promo": 
+        {
+        "id": 1,
+        "name": "Boson",
+        "start_date": "janvier-2022",
+        "end_date": "juillet-2022"
+        }
+    },
+    {
+    "id": 2,
+    "firstName": "Julien",
+    "lastName": "Le Rouzik",
+    "email": "julien@gmail.com",
+    "password": "tata",
+    "slug_name": "julien-Le-rouzik",
+    "picture_url": null, 
+    "city": "Bordeaux",
+    "role": "Admin",
+    "status": 1,
+    "promo": 
+        {
+        "id": 1,
+        "name": "Boson",
+        "start_date": "janvier-2022",
+        "end_date": "juillet-2022"
+        }
+    }
+]
